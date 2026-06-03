@@ -17,6 +17,24 @@ The extension runs locally in the browser and stores prompt data in extension lo
 - Local-first storage with no backend dependency
 - Works on most text inputs, textareas, and editable web text areas
 
+## Screenshots
+
+### Floating Button
+
+![Floating prompt button](screenshots/floating-button.png)
+
+### Prompt Panel
+
+![Expanded prompt panel](screenshots/prompt-panel.png)
+
+### Add Prompt
+
+![Add prompt form](screenshots/add-prompt.png)
+
+### Category Management
+
+![Category management](screenshots/category-management.png)
+
 ## Browser Support
 
 - Microsoft Edge
