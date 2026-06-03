@@ -1,0 +1,12 @@
+edeg-prompt-extension.zip
+index.html
+script.js
+styles.css
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
+.env
+.env.*

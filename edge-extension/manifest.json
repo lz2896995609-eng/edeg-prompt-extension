@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "edeg Prompt Floating Library",
+  "description": "A floating prompt library for Edge and Chrome. Search, categorize, edit, and insert reusable prompts into web input boxes.",
+  "version": "1.0.0",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "edeg Prompt Library"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
