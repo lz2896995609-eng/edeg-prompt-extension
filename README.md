@@ -4,6 +4,14 @@ edeg Prompt Floating Library is a lightweight browser extension for Microsoft Ed
 
 The extension runs locally in the browser and stores prompt data in extension local storage.
 
+## Download
+
+The packaged extension is available from the latest GitHub Release:
+
+[Download edeg-prompt-extension.zip](https://github.com/lz2896995609-eng/edeg-prompt-extension/releases/latest)
+
+After downloading, unzip the package and load the `edge-extension` folder as an unpacked extension.
+
 ## Features
 
 - Floating `T` button near the active web input box
@@ -45,6 +53,12 @@ Firefox is not supported by this package yet.
 
 ## Installation
 
+### Chinese Guide
+
+A plain-text Chinese guide for Windows Notepad users is included in the extension folder:
+
+[Chinese usage guide](edge-extension/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.txt)
+
 ### Edge
 
 1. Download or unzip `edeg-prompt-extension.zip`.
@@ -79,11 +93,16 @@ edeg-prompt-extension/
     content.js
     content.css
     README.md
-    使用说明.txt
+    Chinese usage guide text file
   screenshots/
     README.md
+    floating-button.png
+    prompt-panel.png
+    add-prompt.png
+    category-management.png
   CHANGELOG.md
   LICENSE
+  RELEASE_NOTES.md
   README.md
 ```
 
@@ -97,16 +116,16 @@ Planned improvements include import/export, backup, browser sync, and optional a
 
 ## Roadmap
 
-- Import and export prompt data
-- Optional browser-account sync
-- Better cross-site input detection
-- More compact responsive layouts
-- Optional cloud account system
-- Public prompt pack sharing
+- Import and export prompt data for backup and migration
+- Optional browser-account sync for personal multi-device use
+- Better cross-site input detection for non-standard web editors
+- More compact responsive layouts for small browser windows
+- Optional cloud account system for future team or paid workflows
+- Public prompt pack sharing for reusable prompt collections
 
 ## Maintainer Role
 
-This repository is maintained as the primary source for the edeg prompt floating extension. Maintenance includes browser compatibility fixes, UI positioning improvements, prompt management features, documentation, release notes, and user feedback triage.
+This repository is maintained as the primary source for the edeg prompt floating extension. Maintenance includes browser compatibility fixes, UI positioning improvements, prompt management features, documentation, release notes, packaging, and user feedback triage.
 
 ## License
 
