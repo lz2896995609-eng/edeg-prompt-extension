@@ -114,6 +114,12 @@ Reloading or updating the unpacked extension normally does not remove existing p
 
 Planned improvements include import/export, backup, browser sync, and optional account-based sync.
 
+## Privacy and Security
+
+- Privacy notes are documented in [PRIVACY.md](PRIVACY.md).
+- Security reporting guidance is documented in [SECURITY.md](SECURITY.md).
+- Do not store passwords, API keys, private keys, or other sensitive secrets as reusable prompts.
+
 ## Roadmap
 
 - Import and export prompt data for backup and migration
