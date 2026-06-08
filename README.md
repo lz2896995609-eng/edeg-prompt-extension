@@ -84,6 +84,12 @@ A plain-text Chinese guide for Windows Notepad users is included in the extensio
 4. Click a prompt card to insert its content into the active input box.
 5. Use the edit and delete buttons on each card to manage saved prompts.
 
+## Development and Testing
+
+Development and contribution notes are documented in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+For local testing, load the `edge-extension` folder as an unpacked extension, then test the floating button, prompt insertion, search, category switching, editing, deletion, and panel positioning on a real web input box.
+
 ## Project Structure
 
 ```text

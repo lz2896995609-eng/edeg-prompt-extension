@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+
+### Added
+
+- Added contribution guidelines for local setup, testing, and pull requests.
+- Added a local testing checklist for browser extension behavior.
+- Added README links for development and testing documentation.
+
 ## 1.0.0 - 2026-06-03
 
 ### Added
